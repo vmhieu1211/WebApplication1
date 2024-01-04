@@ -1,0 +1,185 @@
+﻿@model Home
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section class="download-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="download-box">
+                    <a href="Download/Index.aspx" title="DownLoad-Ios">
+                        <img class="btn-download-ios" src="~/images/btn-ios.png" alt="DownloadIOS">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=vn.vltk.htvl"                                                                                                                                          title="DownLoad-Android"><img class="btn-download-android" src="~/images/btn-gp.png" alt="DownloadAndroid"></a><a href="https://download.efunvn.com/JX1_HuyenThoaiVoLam_EFUNVN_08082023.apk" title="DownLoad-APK"><img class="btn-download-apk" src="~/images/btn-apk.png" alt="DownloadAPK"></a>
+                    <a href="https://vn.bignox.com/?utm_source=Jx1efun" title="DownLoad-NoxPlayer">
+                        <img class="btn-download-nox" src="~/images/btn-nox.png" alt="DownloadNOX">
+                    </a>
+                    <a href="https://id.jx1efunvn.mobi" target="_blank" title="Nạp Thẻ">
+                            <img class="btn-nap" src="~/images/btn-vi2.png" alt="NapThe">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tintuc-section" id="tintuc">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tintuc-title title">
+                    <img src="~/images/tintuc.png"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tintuc-banner">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleControls" data-slide-to="https://jx1.efun.vn/giai-dau/doc-co-cau-bai/" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="https://jx1.efun.vn/xem-chi-tiet-255/-thong-bao-khai-mo-server-moi-s15-hap-tinh-yem" class=""></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="" class="active"></li>
+                            <li data-target="#carouselExampleControls" data-slide-to="https://jx1.efun.vn/su-kien/giang-sinh-an-lanh" class=""></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item "><a href="https://jx1.efun.vn/giai-dau/doc-co-cau-bai/" target="_blank"><img src="~/images/homeslider/SliderHomes200521_0533_39.jpg" class="asyncImage tintuc-table-img" alt="..."></a></div>
+                            <div class="carousel-item ">
+                                <a href="https://jx1.efun.vn/xem-chi-tiet-255/-thong-bao-khai-mo-server-moi-s15-hap-tinh-yem" target="_blank"><img src="~/images/homeslider/SliderHomes030921_0154_06.jpg" class="asyncImage tintuc-table-img" alt="..."></a>
+                            </div>
+                            <div class="carousel-item active">
+                                <a href="" target="_blank"><img src="~/images/homeslider/SliderHomes080122_0923_47.jpg" class="asyncImage tintuc-table-img" alt="..."></a>
+                            </div>
+                            <div class="carousel-item "><a href="https://jx1.efun.vn/su-kien/giang-sinh-an-lanh" target="_blank"><img src="~/images/homeslider/SliderHomes161221_1059_31.jpg" class="asyncImage tintuc-table-img" alt="..."></a></div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next"                                                                                                                                                                                                                                             href="#carouselExampleControls" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tintuc-table">
+                    <div class="row">
+                        <ul class="tintuc-header">
+                            @if (Model != null)
+                            {
+                                @foreach (var category in Model.Categories)
+                                {
+                                    <li>
+                                        <a href="/Category/Name/@category">
+                                            @category.Name
+                                        </a>
+                                    </li>
+                                }
+                            }
+                            else
+                            {
+                                <li class="loading" id="newsLoading">
+                                    <a href="javascript">Dữ liệu đang tải...</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="load-post">
+                                <ul class="list-post tin-tuc active-list-post">
+                                    @if (Model != null)
+                                    {
+                                        @foreach (var news in Model.News)
+                                        {
+                                            <li>
+                                                <a asp-controller="News" asp-action="Details" asp-route-id="@news.Id">
+                                                    @news.Title
+                                                </a>
+                                                <span class="created-date">@news.CreatedDate.ToString("dd/MM")</span>
+                                            </li>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <li class="loading" id="newsLoading">
+                                            <a href="javascript;">Dữ liệu đang tải...</a>
+                                        </li>
+                                    }
+                                    <div class="btn-load-post">
+                                        <a asp-controller="Home" asp-action="NewsIndex" title="Xem Thêm">Xem Thêm</a>
+                                    </div>
+                                </ul> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="nhanvat-section" id="monphai">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="nhanvat-title title">
+
+                    <img src="~/images/hethongmonphai.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                         @if (Model != null)
+                        {
+                            @foreach (var character in Model.Characters) 
+                            {
+                                <div class="swiper-slide">
+                                    <img class="asyncImage" src="~/images/@character.ImagePath" alt="@character.Name">
+                                </div>
+                            }
+                        }
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="thuvien-section" id="dacsac">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="nhanvat-title title"><img src="~/images/gameplayhapdan.png" alt=""></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="thuvien-slider">
+                    <ul>
+                        <li><img class="asyncImage" src="~/images/homeslider/SliderHomes120820_0928_50.jpg" alt=""></li>
+                        <li><img class="asyncImage" src="~/images/homeslider/SliderHomes120820_0929_31.jpg" alt=""></li>
+                        <li><img class="asyncImage" src="~/images/homeslider/SliderHomes120820_0929_46.jpg" alt=""></li>
+                        <li><img class="asyncImage" src="~/images/homeslider/SliderHomes120820_0930_01.jpg" alt=""></li>
+                        <li><img class="asyncImage" src="~/images/homeslider/SliderHomes120820_0930_13.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,90 @@
+﻿@model Home
+@{
+    ViewData["Title"] = "News Page";
+    Layout = "_Layout";
+}
+<section class="" id="tintuc">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tintuc-list-title title">
+                    <img src="~/images/tintuc.png" alt=""/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tintuc-bar">               
+                    <ul id="posts">
+                        @if (Model != null)
+                        {
+                            @foreach (var category in Model.Categories)
+                            {
+                                <li>
+                                        <a href="/Category/Details/@category">
+                                            @category.Description
+                                        </a>
+                                </li>
+                             
+                            }   
+                        }
+                        else
+                        {
+                            <li class="loading" id="newsLoading">
+                                <a href="javascript">Dữ liệu đang tải...</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tintuc-load-post">
+                    <ul class="tintuc-list-post active-list-post">
+                        @if (Model != null)
+                        {
+                            @foreach (var news in Model.News)
+                            {
+                                <li class="ng-scope">
+                                    <a asp-controller="News" asp-action="Details" asp-route-id="@news.Id">
+                                        @news.Title
+                                    </a>
+                                    <span class="created-date">@news.CreatedDate.ToString("dd/MM")</span>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="loading" id="newsLoading">
+                                <a href="javascript;">Dữ liệu đang tải...</a>
+                            </li>
+                        }                               
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <nav aria-label="Page navigation example tintuc-navigation">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#posts" ng-click="loadFirstItems(10)">
+                                << Đầu
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#posts" ng-click="loadPreItems(10)">
+                                < Trước
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#posts" ng-click="loadNextItems(10)">Xem tiếp ></a></li>
+                        <li class="page-item"><a class="page-link" href="#posts" ng-click="loadLastItems(10)">Cuối >></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+ 

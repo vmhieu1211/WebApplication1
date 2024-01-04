@@ -1,0 +1,2787 @@
+@media only screen and (max-width:1600px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 570px;
+        margin-right: 455px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 495px;
+        margin-right: 455px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .mobile-nav {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .main-nav {
+        background: url('~/images/bg-header-mb.png') center top no-repeat;
+        background-size: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 902;
+        display: block;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+
+    .wrap {
+        background: url('~/images/bg_pc.jpg') no-repeat;
+        background-size: 100% auto;
+        background-position: center 120px;
+        min-height: 100vh;
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 480px;
+        margin-right: 375px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .right-nav {
+        position: relative;
+        top: 100px;
+        right: 5px;
+        width: 199px;
+        display: none;
+        float: left;
+        position: fixed;
+        z-index: 999;
+    }
+
+    .footer-info {
+        margin-top: 113px;
+    }
+
+    .download-box img.btn-nap {
+        width: 31.5%;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 10px;
+        position: absolute;
+        top: 0px;
+        left: 470px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .download-box .btn-download-ios {
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 265px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .download-box .btn-download-android {
+        border-radius: 10px;
+        position: absolute;
+        top: 57px;
+        left: 265px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .download-box .btn-download-apk {
+        border-radius: 10px;
+        position: absolute;
+        top: 114px;
+        left: 265px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .download-box .btn-download-nox {
+        border-radius: 10px;
+        position: absolute;
+        top: 171px;
+        left: 265px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 155px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+    .tintuc-table .col-sm-6 {
+        -ms-flex: 0 0 45%;
+        flex: 0 0 60%;
+        max-width: 60%;
+        margin-right: -385px;
+    }
+
+    .tintuc-table .tintuc-header li a {
+        text-decoration: none;
+        color: white;
+        font-size: 19px;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 360px;
+        width: 90%;
+        top: 15px;
+        left: 33px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tintuc-table .carousel {
+        display: none;
+    }
+
+    .tintuc-table .btn-load-post {
+        position: absolute;
+        bottom: -45px;
+        left: 46%;
+    }
+
+    .tintuc-table .list-post time {
+        position: absolute;
+        right: 0px;
+    }
+
+    .swiper-slide img {
+        width: 110%;
+        margin-top: 50px;
+    }
+
+    .app {
+        margin: 130px 0 0 0;
+    }
+
+    .information p {
+        font-size: 14px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+    }
+
+    .information {
+        margin: 120px 0px 0px 0px;
+    }
+
+    .location p {
+        font-size: 12px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+        font-style: italic;
+    }
+
+    .location {
+        margin: 130px 0 0 0;
+    }
+}
+
+@media only screen and (max-width:1114px) {
+    .main-nav-download {
+        background: url('~/images/btntaigame.png') no-repeat;
+        background-size: cover;
+        width: 215px;
+        height: 58px;
+        position: absolute;
+        top: 37px;
+        right: 600px;
+    }
+
+        .main-nav-download:hover,
+        .main-nav-download:active {
+            background: url('~/images/btntaigame1.png') no-repeat;
+            background-size: cover;
+            width: 215px;
+            height: 58px;
+            cursor: pointer;
+        }
+
+    .main-nav-donate {
+        background: url('~/images/btnapthe.png') no-repeat;
+        background-size: cover;
+        width: 215px;
+        height: 58px;
+        position: absolute;
+        top: 37px;
+        right: 355px;
+    }
+
+        .main-nav-donate:hover,
+        .main-nav-donate:active {
+            background: url('~/images/btnapthe1.png') no-repeat;
+            background-size: cover;
+            width: 215px;
+            height: 58px;
+            cursor: pointer;
+        }
+
+    .main-nav-button-bar {
+        position: absolute;
+        top: 35px;
+        right: 30px;
+    }
+
+        .main-nav-button-bar i {
+            font-size: 370%;
+            color: white;
+            cursor: pointer;
+        }
+
+    .mobile-nav-icon-home {
+        position: absolute;
+        top: 43px;
+        right: 155px;
+    }
+
+    .mobile-nav-icon-fb i {
+        font-size: 295%;
+        color: rgb(179, 179, 179);
+        transition: all .4s;
+    }
+
+    .mobile-nav-icon-fb {
+        position: absolute;
+        top: 43px;
+        right: 250px;
+    }
+
+    .mobile-nav-icon-home i {
+        font-size: 295%;
+        color: rgb(179, 179, 179);
+        transition: all .4s;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .wrap {
+        background: url('~/images/bg_pc.jpg') no-repeat;
+        background-size: 100% auto;
+        background-position: center 130px;
+        min-height: 100vh;
+    }
+
+    html {
+        font-size: 18px;
+    }
+
+    .main-nav-logo {
+        width: 120px;
+        height: 120px;
+        margin-left: 80px;
+        padding: 30px 0 0 0px;
+    }
+
+    .main-nav-download {
+        background: url('~/images/btntaigame.png') no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 48px;
+        position: absolute;
+        top: 35px;
+        right: 520px;
+    }
+
+        .main-nav-download:hover,
+        .main-nav-download:active {
+            background: url('~/images/btntaigame1.png') no-repeat;
+            background-size: cover;
+            width: 180px;
+            height: 48px;
+            cursor: pointer;
+        }
+
+    .main-nav-donate {
+        background: url('~/images/btnapthe.png') no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 48px;
+        position: absolute;
+        top: 35px;
+        right: 310px;
+    }
+
+        .main-nav-donate:hover,
+        .main-nav-donate:active {
+            background: url('~/images/btnapthe1.png') no-repeat;
+            background-size: cover;
+            width: 180px;
+            height: 48px;
+            cursor: pointer;
+        }
+
+    .main-nav-button-bar {
+        position: absolute;
+        top: 35px;
+        right: 30px;
+    }
+
+        .main-nav-button-bar i {
+            font-size: 320%;
+            color: white;
+            cursor: pointer;
+        }
+
+    .mobile-nav-icon-home {
+        position: absolute;
+        top: 43px;
+        right: 145px;
+    }
+
+    .mobile-nav-icon-fb i {
+        font-size: 225%;
+        color: rgb(179, 179, 179);
+        transition: all .4s;
+    }
+
+    .mobile-nav-icon-fb {
+        position: absolute;
+        top: 43px;
+        right: 220px;
+    }
+
+    .mobile-nav-icon-home i {
+        font-size: 225%;
+        color: rgb(179, 179, 179);
+        transition: all .4s;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 450px;
+        margin-right: 380px;
+        width: 83px;
+        height: 50px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    iframe {
+        margin-left: 7vw;
+        width: 62vw;
+        height: 46.125vw;
+    }
+
+    .download-section {
+        margin-top: 95px;
+    }
+
+    .download-box .btn-download-ios {
+        border-radius: 7px;
+        position: absolute;
+        top: 0;
+        left: 270px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-android {
+        border-radius: 7px;
+        position: absolute;
+        top: 50px;
+        left: 270px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-apk {
+        border-radius: 7px;
+        position: absolute;
+        top: 100px;
+        left: 270px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-nox {
+        border-radius: 7px;
+        position: absolute;
+        top: 150px;
+        left: 270px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box img.btn-nap {
+        width: 27.3%;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 7px;
+        position: absolute;
+        top: 0px;
+        left: 443px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .tintuc-table .col-sm-6 {
+        -ms-flex: 0 0 45%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-right: -960px;
+    }
+
+    .tintuc-table .tintuc-header li a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 155px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 384px;
+        width: 90%;
+        top: 0px;
+        left: 33px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tintuc-table .btn-load-post {
+        position: absolute;
+        bottom: -40px;
+        left: 45%;
+    }
+
+    .information {
+        margin: 110px 0px 0px 0px;
+    }
+
+    .location {
+        margin: 121px 0 0 0;
+    }
+
+    .app {
+        margin: 120px 0 0px 0;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .mobile-nav ul li a {
+        font-family: 'Lora', serif;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .mobile-nav ul.submenu-cam-nang li a {
+        font-family: 'Lora', serif;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .information {
+        margin: 115px 0px 0px 30px;
+    }
+
+        .information p {
+            font-size: 12px;
+            color: white;
+            font-family: 'Lora', serif;
+            letter-spacing: 1px;
+        }
+
+    .location {
+        margin: 125px 0 0 0;
+    }
+
+        .location p {
+            font-size: 10px;
+            color: white;
+            font-family: 'Lora', serif;
+            letter-spacing: 1px;
+            font-style: italic;
+        }
+}
+
+@media only screen and (max-width:900px) {
+    .tintuc-section {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .wrap {
+        background: url(~/images/bg_mobile.jpg) no-repeat;
+        background-size: 100% auto;
+        background-position: center 60px;
+        min-height: 100vh;
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    .main-nav-button-bar {
+        position: absolute;
+        top: 32px;
+        right: 27px;
+    }
+
+        .main-nav-button-bar i {
+            font-size: 250%;
+            color: white;
+            cursor: pointer;
+        }
+
+    .mobile-nav-icon-home i {
+        font-size: 200%;
+        color: rgb(179, 179, 179);
+        transition: all .4s;
+    }
+
+    .mobile-nav-icon-home {
+        position: absolute;
+        top: 35px;
+        right: 125px;
+    }
+
+    .mobile-nav-icon-fb i {
+        font-size: 200%;
+        color: rgb(179, 179, 179);
+        transition: all .4s;
+    }
+
+    .mobile-nav-icon-fb {
+        position: absolute;
+        top: 35px;
+        right: 195px;
+    }
+
+    .main-nav-donate {
+        background: url('~/images/btnapthe.png') no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 48px;
+        position: absolute;
+        top: 25px;
+        right: 255px;
+    }
+
+    .main-nav-download {
+        background: url('~/images/btntaigame.png') no-repeat;
+        background-size: cover;
+        width: 180px;
+        height: 48px;
+        position: absolute;
+        top: 25px;
+        right: 460px;
+    }
+
+    .main-nav-logo {
+        width: 110px;
+        height: 110px;
+        margin-left: 35px;
+        padding: 30px 0 0 0px;
+    }
+
+    .mobile-nav ul {
+        margin-top: 110px;
+        text-align: center;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 745px;
+        margin-right: 300px;
+        width: 83px;
+        height: 50px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .download-box .btn-download-ios {
+        border-radius: 7px;
+        position: absolute;
+        top: 0;
+        left: 200px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box {
+        height: 107px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+        .download-box .btn-download-android {
+            border-radius: 7px;
+            position: absolute;
+            top: 36px;
+            left: 200px;
+            transition: all .3s;
+            z-index: 900;
+            width: 18%;
+        }
+
+        .download-box .btn-download-apk {
+            border-radius: 7px;
+            position: absolute;
+            top: 72px;
+            left: 200px;
+            transition: all .3s;
+            z-index: 900;
+            width: 18%;
+        }
+
+        .download-box .btn-download-nox {
+            border-radius: 7px;
+            position: absolute;
+            top: 108px;
+            left: 200px;
+            transition: all .3s;
+            z-index: 900;
+            width: 18%;
+        }
+
+        .download-box img.btn-nap {
+            width: 26.7%;
+        }
+
+        .download-box .btn-nap {
+            border-radius: 7px;
+            position: absolute;
+            top: 0px;
+            left: 329px;
+            transition: all .3s;
+            z-index: 900;
+        }
+
+    .tintuc-table-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 115px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+        .tintuc-table .tintuc-header li a {
+            text-decoration: none;
+            color: white;
+            font-size: 19px;
+        }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 360px;
+        width: 90%;
+        top: 15px;
+        left: 37px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tintuc-table .btn-load-post {
+        position: absolute;
+        bottom: -45px;
+        left: 44%;
+    }
+
+    .information {
+        margin: 115px 0px 0px 0px;
+    }
+
+        .information p {
+            font-size: 10px;
+            color: white;
+            font-family: 'Lora', serif;
+            letter-spacing: 1px;
+        }
+
+    .location p {
+        font-size: 8px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+        font-style: italic;
+    }
+}
+
+@media only screen and (max-width:846px) {
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 360px;
+        width: 90%;
+        top: 15px;
+        left: 37px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 710px;
+        margin-right: 300px;
+        width: 83px;
+        height: 50px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+}
+
+@media only screen and (max-width:812px) {
+    .main-nav-logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+        padding: 20px 0 0 0px;
+    }
+
+    .main-nav-button-bar {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 680px;
+        margin-right: 300px;
+        width: 83px;
+        height: 50px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .mfp-close {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        line-height: 30px;
+        position: absolute;
+        right: 14vw;
+    }
+
+    .download-box .btn-download-ios {
+        border-radius: 7px;
+        position: absolute;
+        top: 0;
+        left: 200px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-android {
+        border-radius: 7px;
+        position: absolute;
+        top: 37px;
+        left: 200px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-apk {
+        border-radius: 7px;
+        position: absolute;
+        top: 74px;
+        left: 200px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 7px;
+        position: absolute;
+        top: 0px;
+        left: 329px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 85px;
+    }
+
+    .swiper-container {
+        margin-top: 60px;
+        width: 70%;
+        height: 75%;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 360px;
+        width: 90%;
+        top: 15px;
+        left: 35px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .app {
+        display: none;
+    }
+
+    .information p {
+        font-size: 10px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+    }
+
+    .information {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .location p {
+        font-size: 9px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+        font-style: italic;
+    }
+
+    .location {
+        margin: 105px 0 0 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 642px;
+        margin-right: 300px;
+        width: 83px;
+        height: 50px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .mobile-nav ul li a {
+        font-family: 'Lora', serif;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .mobile-nav ul.submenu-cam-nang li a {
+        font-family: 'Lora', serif;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .mobile-nav ul {
+        margin-top: 95px;
+        text-align: center;
+    }
+
+    .main-nav-logo {
+        width: 95px;
+        height: 100px;
+        margin-left: 40px;
+        padding: 20px 0 0 0px;
+    }
+
+    .main-nav-button-bar {
+        position: absolute;
+        top: 23px;
+        right: 23px;
+    }
+
+        .main-nav-button-bar i {
+            font-size: 225%;
+            color: white;
+            cursor: pointer;
+        }
+
+    .mobile-nav-icon-home {
+        position: absolute;
+        top: 30px;
+        right: 100px;
+    }
+
+        .mobile-nav-icon-home i {
+            font-size: 180%;
+            color: rgb(179, 179, 179);
+            transition: all .4s;
+        }
+
+    .mobile-nav-icon-fb {
+        position: absolute;
+        top: 30px;
+        right: 160px;
+    }
+
+        .mobile-nav-icon-fb i {
+            font-size: 180%;
+            color: rgb(179, 179, 179);
+            transition: all .4s;
+        }
+
+    .main-nav-donate {
+        background: url('~/images/btnapthe.png') no-repeat;
+        background-size: cover;
+        width: 165px;
+        height: 44px;
+        position: absolute;
+        top: 20px;
+        right: 215px;
+    }
+
+        .main-nav-donate:hover,
+        .main-nav-donate:active {
+            background: url('~/images/btnapthe1.png') no-repeat;
+            background-size: cover;
+            width: 165px;
+            height: 44px;
+            cursor: pointer;
+        }
+
+    .main-nav-download {
+        background: url('~/images/btntaigame.png') no-repeat;
+        background-size: cover;
+        width: 165px;
+        height: 44px;
+        position: absolute;
+        top: 20px;
+        right: 415px;
+    }
+
+        .main-nav-download:hover,
+        .main-nav-download:active {
+            background: url('~/images/btntaigame1.png') no-repeat;
+            background-size: cover;
+            width: 165px;
+            height: 44px;
+            cursor: pointer;
+        }
+
+    .mfp-close {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        line-height: 30px;
+        position: absolute;
+        right: 11vw;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 360px;
+        width: 90%;
+        top: 15px;
+        left: 35px;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width:736px) {
+    .tintuc-section {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 620px;
+        margin-right: 205px;
+        width: 83px;
+        height: 50px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    html {
+        font-size: 15px;
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .download-section {
+        margin-top: 80px;
+    }
+
+    .download-box .btn-download-ios {
+        border-radius: 7px;
+        position: absolute;
+        top: 0;
+        left: 145px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-android {
+        border-radius: 7px;
+        position: absolute;
+        top: 27px;
+        left: 145px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box {
+        height: 80px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+        .download-box .btn-download-apk {
+            border-radius: 7px;
+            position: absolute;
+            top: 54px;
+            left: 145px;
+            transition: all .3s;
+            z-index: 900;
+            width: 18%;
+        }
+
+        .download-box .btn-download-nox {
+            border-radius: 7px;
+            position: absolute;
+            top: 81px;
+            left: 145px;
+            transition: all .3s;
+            z-index: 900;
+            width: 18%;
+        }
+
+        .download-box img.btn-nap {
+            width: 27%;
+        }
+
+        .download-box .btn-nap {
+            border-radius: 7px;
+            position: absolute;
+            top: 0px;
+            left: 244px;
+            transition: all .3s;
+            z-index: 900;
+        }
+
+    .tintuc-table .tintuc-header li {
+        width: 85px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+        .tintuc-table .tintuc-header li a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 345px;
+        width: 90%;
+        top: 15px;
+        left: 30px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tintuc-table .btn-load-post {
+        position: absolute;
+        bottom: -45px;
+        left: 44%;
+    }
+
+    .tintuc-table .list-post time {
+        position: absolute;
+        right: 0px;
+    }
+
+    .footer-info .col-sm-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 35%;
+        max-width: 35%;
+        margin-left: -100px;
+    }
+
+    .information {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .footer-info .col-sm-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 71.333333%;
+        max-width: 71.333333%;
+        margin-left: -25px;
+    }
+
+    .location {
+        margin: 111px 0 0 0;
+    }
+
+        .location p {
+            font-size: 8px;
+            color: white;
+            font-family: 'Lora', serif;
+            letter-spacing: 1px;
+            font-style: italic;
+        }
+}
+
+@media only screen and (max-width:667px) {
+    .main-nav-logo {
+        width: 70px;
+        height: 85px;
+        margin-left: 40px;
+        padding: 20px 0 0 0px;
+    }
+
+    .main-nav-button-bar {
+        position: absolute;
+        top: 23px;
+        right: 20px;
+    }
+
+    .mobile-nav-icon-home i {
+        font-size: 165%;
+        color: rgb(179, 179, 179);
+        transition: all .4s;
+    }
+
+    .mobile-nav-icon-home {
+        position: absolute;
+        top: 25px;
+        right: 85px;
+    }
+
+    .mobile-nav-icon-fb i {
+        font-size: 165%;
+        color: rgb(179, 179, 179);
+        transition: all .4s;
+    }
+
+    .mobile-nav-icon-fb {
+        position: absolute;
+        top: 25px;
+        right: 130px;
+    }
+
+    .main-nav-donate {
+        background: url('~/images/btnapthe.png') no-repeat;
+        background-size: cover;
+        width: 133px;
+        height: 35px;
+        position: absolute;
+        top: 17px;
+        right: 175px;
+    }
+
+    .tintuc-table .list-post time {
+        position: absolute;
+        right: 0px;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 345px;
+        width: 90%;
+        top: 15px;
+        left: 30px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .main-nav-donate:hover,
+    .main-nav-donate:active {
+        background: url('~/images/btnapthe1.png') no-repeat;
+        background-size: cover;
+        width: 135px;
+        height: 35px;
+        cursor: pointer;
+    }
+
+    .main-nav-download {
+        background: url('~/images/btntaigame.png') no-repeat;
+        background-size: cover;
+        width: 133px;
+        height: 35px;
+        position: absolute;
+        top: 17px;
+        right: 325px;
+    }
+
+        .main-nav-download:hover,
+        .main-nav-download:active {
+            background: url('~/images/btntaigame1.png') no-repeat;
+            background-size: cover;
+            width: 135px;
+            height: 35px;
+            cursor: pointer;
+        }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 567px;
+        margin-right: 210px;
+        width: 75px;
+        height: 45px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .khuyen-cao img {
+        filter: opacity(0.75);
+        width: 105px;
+        height: 65px;
+    }
+
+    .download-box {
+        height: 80px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+        .download-box .btn-download-android {
+            border-radius: 7px;
+            position: absolute;
+            top: 26px;
+            left: 145px;
+            transition: all .3s;
+            z-index: 900;
+            width: 18%;
+        }
+
+        .download-box .btn-download-apk {
+            border-radius: 7px;
+            position: absolute;
+            top: 53px;
+            left: 145px;
+            transition: all .3s;
+            z-index: 900;
+            width: 18%;
+        }
+
+        .download-box .btn-download-nox {
+            border-radius: 7px;
+            position: absolute;
+            top: 80px;
+            left: 145px;
+            transition: all .3s;
+            z-index: 900;
+            width: 18%;
+        }
+
+        .download-box img.btn-nap {
+            width: 27%;
+        }
+
+        .download-box .btn-nap {
+            border-radius: 7px;
+            position: absolute;
+            top: 0px;
+            left: 240px;
+            transition: all .3s;
+            z-index: 900;
+        }
+
+    iframe {
+        margin-left: 0vw;
+        width: 74vw;
+        height: 48.125vw;
+    }
+
+    .mfp-close {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        line-height: 30px;
+        position: absolute;
+        right: 12vw;
+        top: -6vw;
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .main-nav-logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 55px;
+        padding: 20px 0 0 0px;
+    }
+
+    .mobile-nav-icon-home {
+        position: absolute;
+        top: 23px;
+        right: 75px;
+    }
+
+        .mobile-nav-icon-home i {
+            font-size: 140%;
+            color: rgb(179, 179, 179);
+            transition: all .4s;
+        }
+
+    .mobile-nav-icon-fb {
+        position: absolute;
+        top: 23px;
+        right: 115px;
+    }
+
+        .mobile-nav-icon-fb i {
+            font-size: 140%;
+            color: rgb(179, 179, 179);
+            transition: all .4s;
+        }
+
+    .mobile-nav ul {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+        .mobile-nav ul li a {
+            font-family: 'Lora', serif;
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .mobile-nav ul.submenu-cam-nang li a {
+            font-family: 'Lora', serif;
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+    .main-nav-donate {
+        background: url('~/images/btnapthe.png') no-repeat;
+        background-size: cover;
+        width: 105px;
+        height: 28px;
+        position: absolute;
+        top: 17px;
+        right: 150px;
+    }
+
+        .main-nav-donate:hover,
+        .main-nav-donate:active {
+            background: url('~/images/btnapthe1.png') no-repeat;
+            background-size: cover;
+            width: 105px;
+            height: 28px;
+            cursor: pointer;
+        }
+
+    .main-nav-download {
+        background: url('~/images/btntaigame.png') no-repeat;
+        background-size: cover;
+        width: 105px;
+        height: 28px;
+        position: absolute;
+        top: 17px;
+        right: 270px;
+    }
+
+        .main-nav-download:hover,
+        .main-nav-download:active {
+            background: url('~/images/btntaigame1.png') no-repeat;
+            background-size: cover;
+            width: 105px;
+            height: 28px;
+            cursor: pointer;
+        }
+
+    .main-nav-button-bar {
+        position: absolute;
+        top: 20px;
+        right: 18px;
+    }
+
+        .main-nav-button-bar i {
+            font-size: 175%;
+            color: white;
+            cursor: pointer;
+        }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 490px;
+        margin-right: 225px;
+        width: 75px;
+        height: 45px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .khuyen-cao {
+        position: fixed;
+        bottom: 20px;
+        z-index: 900;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+        left: 254px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .download-box .btn-download-ios {
+        border-radius: 5px;
+        position: absolute;
+        top: 0;
+        left: 153px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-android {
+        border-radius: 5px;
+        position: absolute;
+        top: 28px;
+        left: 153px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-apk {
+        border-radius: 5px;
+        position: absolute;
+        top: 56px;
+        left: 153px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-nox {
+        border-radius: 5px;
+        position: absolute;
+        top: 84px;
+        left: 153px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box img.btn-nap {
+        width: 26.8%;
+    }
+
+    .tintuc-table .tintuc-header li a {
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 90px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 295px;
+        width: 90%;
+        top: 15px;
+        left: 20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+        .tintuc-table .list-post time {
+            position: absolute;
+            right: 0px;
+        }
+
+    html {
+        font-size: 13px;
+    }
+
+    .footer-info .col-sm-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 30%;
+        max-width: 30%;
+        margin-left: 40px;
+    }
+
+    .information p {
+        font-size: 9px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+    }
+
+    .footer-info .col-sm-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 65.333333%;
+        max-width: 65.333333%;
+        margin-left: -25px;
+    }
+
+    .location p {
+        font-size: 7px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+        font-style: italic;
+    }
+
+    .khuyen-cao img {
+        filter: opacity(0.75);
+        width: 100px;
+        height: 55px;
+    }
+}
+
+@media only screen and (max-width:539px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 467px;
+        margin-right: 215px;
+        width: 60px;
+        height: 40px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    #carouselExampleControls {
+        margin-top: 50px;
+        padding: 10px 0px 0 0;
+    }
+
+    .download-box img.btn-nap {
+        width: 27.8%;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+        left: 249px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .tintuc-table .tintuc-header li a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 85px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+    .tintuc-table .load-post {
+        text-align: left;
+        position: relative;
+        min-height: 385px;
+    }
+
+    .tintuc-table .btn-load-post {
+        position: absolute;
+        bottom: -25px;
+        left: 35%;
+    }
+
+    @media only screen and (max-width:420px) {
+        .tintuc-table .btn-load-post {
+            position: absolute;
+            bottom: -25px;
+            left: 40%;
+        }
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 295px;
+        width: 90%;
+        top: 15px;
+        left: 20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width:519px) {
+    .main-nav-logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 35px;
+        padding: 20px 0 0 0px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 452px;
+        margin-right: 210px;
+        width: 60px;
+        height: 40px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .download-box img.btn-nap {
+        width: 28.9%;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+        left: 246px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 82px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 295px;
+        width: 90%;
+        top: 15px;
+        left: 20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .mobile-nav {
+        background: url(~/images/bg-news-footer.jpg) no-repeat;
+        background-size: 100% 323px;
+        background-position: center 60px;
+        min-height: 30vh;
+        width: 100%;
+        position: fixed;
+        display: none;
+        z-index: 901;
+    }
+
+    .download-box img.btn-nap {
+        width: 26.2%;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+        left: 220px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 78px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+        .tintuc-table .tintuc-header li a {
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+        }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 295px;
+        width: 90%;
+        top: 15px;
+        left: 20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    html {
+        font-size: 12px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 438px;
+        margin-right: 210px;
+        width: 60px;
+        height: 40px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .download-box .btn-download-ios {
+        border-radius: 5px;
+        position: absolute;
+        top: 0;
+        left: 145px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-android {
+        border-radius: 5px;
+        position: absolute;
+        top: 24px;
+        left: 145px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-apk {
+        border-radius: 5px;
+        position: absolute;
+        top: 48px;
+        left: 145px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-nox {
+        border-radius: 5px;
+        position: absolute;
+        top: 72px;
+        left: 145px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+        left: 234px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .footer-info .col-sm-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 33%;
+        max-width: 33%;
+        margin-left: 15px;
+    }
+
+    .footer-info .col-sm-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 69.333333%;
+        max-width: 69.333333%;
+        margin-left: -28px;
+    }
+
+    .location {
+        margin: 102px 0 0 0;
+    }
+}
+
+@media only screen and (max-width:468px) {
+    .main-nav-logo {
+        width: 67px;
+        height: 80px;
+        margin-left: 13px;
+        padding: 15px 0 0 0px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 415px;
+        margin-right: 185px;
+        width: 50px;
+        height: 30px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .location {
+        margin: 88px 0 0 0;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 295px;
+        width: 90%;
+        top: 15px;
+        left: 20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 73px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+        left: 213px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .download-box .btn-download-ios {
+        border-radius: 5px;
+        position: absolute;
+        top: 0;
+        left: 130px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-android {
+        border-radius: 5px;
+        position: absolute;
+        top: 24px;
+        left: 130px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-apk {
+        border-radius: 5px;
+        position: absolute;
+        top: 48px;
+        left: 130px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-nox {
+        border-radius: 5px;
+        position: absolute;
+        top: 72px;
+        left: 130px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box img.btn-nap {
+        width: 27.9%;
+    }
+
+    iframe {
+        margin-left: -9vw;
+        width: 91vw;
+        height: 59.125vw;
+    }
+
+    .mfp-close {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        line-height: 30px;
+        position: absolute;
+        right: 4vw;
+        top: -7vw;
+    }
+
+    .information {
+        margin: 73px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width:439px) {
+    .mobile-nav-icon-home {
+        position: absolute;
+        top: 18px;
+        right: 60px;
+    }
+
+    .mobile-nav-icon-fb {
+        position: absolute;
+        top: 18px;
+        right: 95px;
+    }
+
+    .main-nav-donate {
+        background: url(~/images/btnapthe.png) no-repeat;
+        background-size: cover;
+        width: 105px;
+        height: 28px;
+        position: absolute;
+        top: 12px;
+        right: 123px;
+    }
+
+    .mobile-nav {
+        background: url(~/images/bg-news-footer.jpg) no-repeat;
+        background-size: 100% 323px;
+        background-position: center 40px;
+        min-height: 30vh;
+        width: 100%;
+        position: fixed;
+        display: none;
+        z-index: 901;
+    }
+
+        .mobile-nav ul {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+    .main-nav-download {
+        background: url(~/images/btntaigame.png) no-repeat;
+        background-size: cover;
+        width: 105px;
+        height: 28px;
+        position: absolute;
+        top: 12px;
+        right: 239px;
+    }
+
+    .main-nav-logo {
+        width: 67px;
+        height: 80px;
+        margin-left: 15px;
+        padding: 20px 0 0 0px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 395px;
+        margin-right: 175px;
+        width: 50px;
+        height: 30px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-table .tintuc-header li a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    .download-box .btn-download-ios {
+        border-radius: 5px;
+        position: absolute;
+        top: 0;
+        left: 125px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-android {
+        border-radius: 5px;
+        position: absolute;
+        top: 22px;
+        left: 125px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-apk {
+        border-radius: 5px;
+        position: absolute;
+        top: 44px;
+        left: 125px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-nox {
+        border-radius: 5px;
+        position: absolute;
+        top: 66px;
+        left: 125px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box img.btn-nap {
+        width: 27.4%;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+        left: 204px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .download-box {
+        height: 64px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .location {
+        margin: 100px 0 0 0;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 295px;
+        width: 90%;
+        top: 15px;
+        left: 20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 68px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+    .tintuc-table .load-post {
+        text-align: left;
+        position: relative;
+        min-height: 365px;
+    }
+
+    .location {
+        margin: 88px 0 0 0;
+    }
+
+    .footer-info .col-sm-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 35%;
+        max-width: 35%;
+        margin-left: 0px;
+    }
+
+    html {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:419px) {
+    .main-nav-logo {
+        width: 55px;
+        height: 80px;
+        margin-left: 10px;
+        padding: 15px 0 0 0px;
+    }
+
+    .tintuc-section {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .download-section {
+        margin-top: 50px;
+    }
+
+    .download-box img.btn-nap {
+        width: 28.5%;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 377px;
+        margin-right: 165px;
+        width: 50px;
+        height: 30px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+        left: 199px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 65px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 295px;
+        width: 90%;
+        top: 15px;
+        left: 20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .location {
+        margin: 85px 0px 0px 5px;
+    }
+
+        .location p {
+            font-size: 5px;
+            color: white;
+            font-family: 'Lora', serif;
+            letter-spacing: 1px;
+            font-style: italic;
+        }
+
+    .information p {
+        font-size: 7px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 259px;
+        width: 90%;
+        top: 15px;
+        left: 15px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tintuc-table {
+        background-size: 100% 120%;
+    }
+}
+
+@media only screen and (max-width:670px) {
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 259px;
+        width: 90%;
+        top: 15px;
+        left: 15px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tintuc-table {
+        background-size: 100% 120%;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 259px;
+        width: 90%;
+        top: 15px;
+        left: 15px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tintuc-table {
+        background-size: 100% 120%;
+    }
+}
+
+@media only screen and (max-width:570px) {
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 259px;
+        width: 90%;
+        top: 15px;
+        left: 15px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .tintuc-table {
+        background-size: 100% 120%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 259px;
+        width: 90%;
+        top: 15px;
+        left: 15px;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .tintuc-section {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .main-nav-button-bar {
+        position: absolute;
+        top: 15px;
+        right: 13px;
+    }
+
+    .mobile-nav ul.submenu-cam-nang li a {
+        font-family: 'Lora', serif;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    .mobile-nav {
+        background: url(~/images/bg-news-footer.jpg) no-repeat;
+        background-size: 100% 323px;
+        background-position: center 20px;
+        min-height: 30vh;
+        width: 100%;
+        position: fixed;
+        display: none;
+        transition: all .4s;
+        z-index: 901;
+    }
+
+    .main-nav-button-bar i {
+        font-size: 150%;
+        color: white;
+        cursor: pointer;
+    }
+
+    .mobile-nav-icon-home i {
+        font-size: 125%;
+        color: rgb(179, 179, 179);
+        transition: all .4s;
+    }
+
+    .mobile-nav-icon-home {
+        position: absolute;
+        top: 15px;
+        right: 60px;
+    }
+
+    .mobile-nav-icon-fb i {
+        font-size: 125%;
+        color: rgb(179, 179, 179);
+        transition: all .4s;
+    }
+
+    .mobile-nav-icon-fb {
+        position: absolute;
+        top: 15px;
+        right: 90px;
+    }
+
+    .mobile-nav ul {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+        .mobile-nav ul li a {
+            font-family: 'Lora', serif;
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+    .download-box img.btn-nap {
+        width: 26.7%;
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .tintuc-table .tintuc-header li {
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+    html {
+        font-size: 10px;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 259px;
+        width: 90%;
+        top: 15px;
+        left: 15px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+        .tintuc-table .list-post time {
+            position: absolute;
+            right: 0px;
+        }
+
+    .tintuc-table .tintuc-header li a {
+        text-decoration: none;
+        color: white;
+        font-size: 11px;
+    }
+    /*.main-nav-donate {
+        background: url('~/images/btnapthe.png') no-repeat;
+        background-size: cover;
+        width: 85px;
+        height: 23px;
+        position: absolute;
+        top: 11px;
+        right: 117px;
+    }
+
+        .main-nav-donate:hover,
+        .main-nav-donate:active {
+            background: url('~/images/btnapthe1.png') no-repeat;
+            background-size: cover;
+            width: 85px;
+            height: 23px;
+            cursor: pointer;
+        }
+
+    .main-nav-download {
+        background: url('~/images/btntaigame.png') no-repeat;
+        background-size: cover;
+        width: 85px;
+        height: 23px;
+        position: absolute;
+        top: 11px;
+        right: 210px;
+    }
+
+        .main-nav-download:hover,
+        .main-nav-download:active {
+            background: url('~/images/btntaigame1.png') no-repeat;
+            background-size: cover;
+            width: 85px;
+            height: 23px;
+            cursor: pointer;
+        }*/
+    .main-nav-logo {
+        width: 45px;
+        height: 60px;
+        margin-left: 15px;
+        padding: 20px 0 0 0px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 373px;
+        margin-right: 175px;
+        width: 40px;
+        height: 25px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .download-box .btn-download-ios {
+        border-radius: 2px;
+        position: absolute;
+        top: 0;
+        left: 113px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-android {
+        border-radius: 2px;
+        position: absolute;
+        top: 20px;
+        left: 113px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-apk {
+        border-radius: 2px;
+        position: absolute;
+        top: 40px;
+        left: 113px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-nox {
+        border-radius: 2px;
+        position: absolute;
+        top: 60px;
+        left: 113px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 2px;
+        position: absolute;
+        top: 0px;
+        left: 185px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .download-box {
+        height: 60px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .download-section {
+        margin-top: 40px;
+    }
+
+    .footer-info {
+        margin-top: 50px;
+    }
+
+        .footer-info .col-sm-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 34%;
+            max-width: 34%;
+            margin-left: 5px;
+        }
+
+    .information {
+        margin: 45px 0px 0px 0px;
+    }
+
+        .information p {
+            font-size: 7px;
+            color: white;
+            font-family: 'Lora', serif;
+            letter-spacing: 1px;
+        }
+
+    .footer-info .col-sm-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 67.333333%;
+        max-width: 67.333333%;
+        margin-left: -15px;
+    }
+
+    .location {
+        margin: 55px 0 0 0;
+    }
+
+        .location p {
+            font-size: 5px;
+            color: white;
+            font-family: 'Lora', serif;
+            letter-spacing: 1px;
+            font-style: italic;
+        }
+
+    .thuvien-slider {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 259px;
+        width: 90%;
+        top: 15px;
+        left: 15px;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .main-nav-logo {
+        width: 50px;
+        height: 60px;
+        margin-left: 15px;
+        padding: 12px 0 0 0px;
+    }
+
+    .main-nav-donate {
+        background: url('~/images/btnapthe.png') no-repeat;
+        background-size: cover;
+        width: 85px;
+        height: 23px;
+        position: absolute;
+        top: 11px;
+        right: 117px;
+    }
+
+        .main-nav-donate:hover,
+        .main-nav-donate:active {
+            background: url('~/images/btnapthe1.png') no-repeat;
+            background-size: cover;
+            width: 85px;
+            height: 23px;
+            cursor: pointer;
+        }
+
+    .main-nav-download {
+        background: url('~/images/btntaigame.png') no-repeat;
+        background-size: cover;
+        width: 85px;
+        height: 23px;
+        position: absolute;
+        top: 11px;
+        right: 210px;
+    }
+
+        .main-nav-download:hover,
+        .main-nav-download:active {
+            background: url('~/images/btntaigame1.png') no-repeat;
+            background-size: cover;
+            width: 85px;
+            height: 23px;
+            cursor: pointer;
+        }
+
+    .mobile-nav ul li a {
+        font-family: 'Lora', serif;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    .mobile-nav ul.submenu-cam-nang li a {
+        font-family: 'Lora', serif;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 344px;
+        margin-right: 155px;
+        width: 40px;
+        height: 25px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .khuyen-cao {
+        position: absolute;
+        position: fixed;
+        bottom: 2vw;
+        z-index: 900;
+    }
+
+        .khuyen-cao img {
+            filter: opacity(0.75);
+            width: 70px;
+            height: 40px;
+        }
+
+    .download-box .btn-download-ios {
+        border-radius: 2px;
+        position: absolute;
+        top: 0;
+        left: 105px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-android {
+        border-radius: 2px;
+        position: absolute;
+        top: 18px;
+        left: 105px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-download-apk {
+        border-radius: 2px;
+        position: absolute;
+        top: 36px;
+        left: 105px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box .btn-nap {
+        border-radius: 2px;
+        position: absolute;
+        top: 0px;
+        left: 170px;
+        transition: all .3s;
+        z-index: 900;
+    }
+
+    .download-box .btn-download-nox {
+        border-radius: 2px;
+        position: absolute;
+        top: 54px;
+        left: 105px;
+        transition: all .3s;
+        z-index: 900;
+        width: 18%;
+    }
+
+    .download-box {
+        height: 53px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .tintuc-table .tintuc-header li {
+        width: 58px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0 0px;
+    }
+
+    .tintuc-table .list-post {
+        position: absolute;
+        min-height: 265px;
+        width: 90%;
+        top: 15px;
+        left: 10px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    @media only screen and (max-width:370px) {
+        .tintuc-table .list-post {
+            position: absolute;
+            min-height: 265px;
+            width: 90%;
+            top: 15px;
+            left: 10px;
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+
+    @media only screen and (max-width:330px) {
+        .tintuc-table .list-post {
+            position: absolute;
+            min-height: 265px;
+            width: 90%;
+            top: 15px;
+            left: 10px;
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+
+    .tintuc-table .tintuc-header li a {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+
+    .information {
+        margin: 50px 0px 0px 0px;
+    }
+
+        .information p {
+            font-size: 6px;
+            color: white;
+            font-family: 'Lora', serif;
+            letter-spacing: 1px;
+        }
+
+    .location {
+        margin: 61px 0 0 0;
+    }
+
+        .location p {
+            font-size: 4px;
+            color: white;
+            font-family: 'Lora', serif;
+            letter-spacing: 1px;
+            font-style: italic;
+        }
+}
+
+.buttonbacknews {
+    background: gray;
+    position: relative;
+    top: 0;
+    padding: 20px;
+    left: 47%;
+}
+
+@media only screen and (max-width:900px) {
+    .buttonbacknews {
+        background: gray;
+        position: relative;
+        top: 0;
+        padding: 20px;
+        left: 37%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .buttonbacknews {
+        background: gray;
+        position: relative;
+        top: 0;
+        padding: 20px;
+        left: 43%;
+    }
+}

@@ -1,0 +1,52 @@
+﻿@model News
+@{
+    ViewData["Title"] = "Detail";
+    Layout ="_Layout";
+}
+<div class="tintuc-list-section" id="tintuc">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tintuc-title title">
+                    <img src="~/images/tintuc.png" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tintuc-list-header">
+                    <div class="tintuc-name">
+                        <span>
+                            <span id="ContentGeneralMain_lblTitle">
+                                @Model.Title
+                            </span>
+                        </span>
+                    </div>
+                </div>
+               
+                <div class="tintuc-body">
+                    <span id="ContentGeneralMain_lblContent">
+                        <p>
+                            <span style="font-family:Times New Roman,Times,serif">
+                                <span style="font-size:16px">
+                                    @Model.Content
+                                </span>
+                            </span>
+                        </p>
+                        <p>
+                            <img alt="" src="~/images/@Model.Image" />
+                        </p>
+                        <p>
+                            <img alt="" src="~/images/@Model.Image2" />
+                        </p>
+                    </span>
+                </div>
+              
+                <div class="tintuc_footer"></div>
+            </div>
+        </div>
+       
+    </div>
+</div>

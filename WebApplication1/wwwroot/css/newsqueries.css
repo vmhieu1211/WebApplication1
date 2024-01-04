@@ -1,0 +1,808 @@
+@media only screen and (max-width:1600px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 585px;
+        margin-right: 470px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-section nav {
+        margin-left: 31%;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .tintuc-list-header {
+        background-size: 100%;
+        background-position: center top;
+        width: 100%;
+        height: auto;
+        min-height: 160px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 505px;
+        margin-right: 480px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-title {
+        margin-top: 200px;
+    }
+
+    .tintuc-list-header {
+        text-align: center;
+        position: relative;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 490px;
+        margin-right: 395px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 155px;
+        list-style: none;
+        display: inline-block;
+    }
+
+        .tintuc-bar ul li a {
+            font-family: Tahoma;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+    .tintuc-list-section nav {
+        margin-left: 31%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 465px;
+        margin-right: 415px;
+        width: 70px;
+        height: 45px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-section nav {
+        margin-left: 30%;
+    }
+
+    .btn-back {
+        position: absolute;
+        top: 1px;
+        left: 25px;
+        font-size: 230%;
+    }
+
+    .btn-back {
+        position: absolute;
+        top: 7px;
+        left: 19px;
+        font-size: 190%;
+    }
+
+    .tintuc-list-header {
+        background-size: 100%;
+        background-position: center top;
+        width: 100%;
+        height: auto;
+        min-height: 15vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .tintuc-list-header span {
+            font-family: 'Lora', serif;
+            font-size: 21px;
+            font-weight: 500;
+            color: black;
+            text-transform: uppercase;
+        }
+
+    .tintuc-body {
+        background-color: whitesmoke;
+        height: auto;
+        min-height: 100vh;
+        padding: 15px 25px;
+        width: 92%;
+        margin: -5vw auto 0;
+        box-shadow: 0px 0px 6px 2px #4c3004;
+    }
+
+    .tintuc_footer {
+        background-size: 100%;
+        background-position: center top;
+        width: 100%;
+        height: auto;
+        min-height: 12vw;
+        margin-top: -15px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 453px;
+        margin-right: 297px;
+        width: 70px;
+        height: 45px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-section nav {
+        margin-left: 14%;
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 115px;
+        list-style: none;
+        display: inline-block;
+    }
+
+        .tintuc-bar ul li a {
+            font-family: Tahoma;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 18px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+}
+
+@media only screen and (max-width:900px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 720px;
+        margin-right: 305px;
+        width: 70px;
+        height: 45px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-title {
+        margin-top: 110px;
+    }
+
+    .tintuc-bar ul li a {
+        font-family: Tahoma;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .tintuc-list-section nav {
+        margin-left: 25%;
+    }
+
+    .tintuc-list-post li a {
+        font-size: 18px;
+        color: rgb(68, 70, 107);
+        font-weight: 500;
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 115px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width:812px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 660px;
+        margin-right: 305px;
+        width: 83px;
+        height: 50px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-title {
+        margin-top: 120px;
+    }
+
+    .tintuc-list-header span {
+        font-family: 'Lora', serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .btn-back {
+        position: absolute;
+        top: 9px;
+        left: 15px;
+        font-size: 150%;
+    }
+
+    .tintuc-list-header {
+        text-align: center;
+        position: relative;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:736px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 600px;
+        margin-right: 230px;
+        width: 60px;
+        height: 40px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-title {
+        margin-top: 100px;
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 85px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+
+        .tintuc-bar ul li a {
+            font-family: Tahoma;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 14px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+    .tintuc-bar {
+        margin-top: 10px;
+    }
+
+    .tintuc-list-section nav {
+        margin-left: 23%;
+    }
+
+    .btn-back {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        font-size: 150%;
+    }
+
+    .news_detail_content {
+        background-size: 100%;
+        background-position: center top;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        padding: 50px 40px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:667px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 545px;
+        margin-right: 230px;
+        width: 60px;
+        height: 40px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-load-post {
+        margin-left: 20px;
+        width: 90%;
+        text-align: left;
+        position: relative;
+        min-height: 850px;
+    }
+
+    .tintuc-list-header {
+        text-align: center;
+        position: relative;
+        margin-top: 25px !important;
+    }
+
+    .tintuc-list-post li a {
+        font-size: 14.5px;
+        color: rgb(68, 70, 107);
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .tintuc-list-section nav {
+        margin-top: 100px;
+        margin-left: 20%;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 480px;
+        margin-right: 245px;
+        width: 55px;
+        height: 35px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-title {
+        margin-top: 100px;
+    }
+
+    .tintuc-bar ul li a {
+        font-family: Tahoma;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .tintuc-load-post {
+        margin-left: 20px;
+        width: 90%;
+        text-align: left;
+        position: relative;
+        min-height: 610px;
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 89.5px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .footer-info {
+        margin-top: 50px;
+    }
+
+    .news_detail_content {
+        background-size: 100%;
+        background-position: center top;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        padding: 35px 40px;
+        margin-top: 30px;
+    }
+
+    .tintuc-list-header span {
+        font-family: 'Lora', serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: black;
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (max-width:539px) {
+    .tintuc-list-section nav {
+        margin-top: 100px;
+        margin-left: 16%;
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 84px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 450px;
+        margin-right: 230px;
+        width: 55px;
+        height: 35px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-title {
+        margin-top: 85px;
+    }
+
+    .news_detail_content {
+        background-size: 100%;
+        background-position: center top;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        padding: 30px 30px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:519px) {
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 81px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+
+        .tintuc-bar ul li a {
+            font-family: Tahoma;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 13px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+    .tintuc-list-section nav {
+        margin-top: 110px;
+        margin-left: 16%;
+    }
+
+    .information {
+        margin: 96px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width:512px) {
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 80px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 430px;
+        margin-right: 215px;
+        width: 55px;
+        height: 35px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-title {
+        margin-top: 80px;
+    }
+
+    .tintuc-bar ul li a {
+        font-family: Tahoma;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 12px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .tintuc-load-post {
+        margin-left: 20px;
+        width: 90%;
+        text-align: left;
+        position: relative;
+        min-height: 725px;
+    }
+
+    .tintuc-list-section nav {
+        margin-left: 15%;
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 78px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .btn-back {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        font-size: 150%;
+    }
+
+    .tintuc-load-post {
+        margin-left: 20px;
+        width: 90%;
+        text-align: left;
+        position: relative;
+        min-height: 575px;
+    }
+
+    .footer-info .col-sm-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 35%;
+        max-width: 35%;
+        margin-left: 0px;
+    }
+
+    .information {
+        margin: 85px 0px 0px 0px;
+    }
+
+    .footer-info .col-sm-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 70.333333%;
+        max-width: 70.333333%;
+        margin-left: -28px;
+    }
+
+    .location {
+        margin: 97px 0 0 0;
+    }
+
+    .tintuc-list-header {
+        text-align: center;
+        position: relative;
+        margin-top: 20px !important;
+    }
+
+        .tintuc-list-header span {
+            font-family: 'Lora', serif;
+            font-size: 13px;
+            font-weight: 500;
+            color: black;
+            text-transform: uppercase;
+        }
+}
+
+@media only screen and (max-width:468px) {
+    .tintuc-list-section nav {
+        margin-left: 11%;
+        margin-top: 160px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 405px;
+        margin-right: 195px;
+        width: 55px;
+        height: 35px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .location {
+        margin: 88px 0 0 0;
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 73px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .news_detail_content {
+        background-size: 100%;
+        background-position: center top;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        padding: 25px 30px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:439px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 380px;
+        margin-right: 185px;
+        width: 55px;
+        height: 35px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 68px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+
+        .tintuc-bar ul li a {
+            font-family: Tahoma;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 11px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+    .tintuc-list-section nav {
+        margin-left: 7%;
+        margin-top: 160px;
+    }
+
+    .information {
+        margin: 72px 0px 0px 0px;
+    }
+
+    .news_detail_content {
+        background-size: 100%;
+        background-position: center top;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        padding: 20px 30px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:419px) {
+    .location {
+        margin: 83px 0 0 0;
+    }
+
+    .tintuc-list-section nav {
+        margin-left: 3%;
+        margin-top: 160px;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 365px;
+        margin-right: 170px;
+        width: 55px;
+        height: 35px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-bar ul li a {
+        font-family: Tahoma;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 10px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 64px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 365px;
+        margin-right: 170px;
+        width: 55px;
+        height: 35px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-title {
+        margin-top: 70px;
+    }
+
+    .tintuc-bar {
+        margin-top: 10px;
+    }
+
+    .tintuc-list-section nav {
+        margin-top: 200px;
+        margin-left: 6%;
+    }
+
+    .tintuc-load-post {
+        margin-left: 20px;
+        width: 90%;
+        text-align: left;
+        position: relative;
+        min-height: 480px;
+    }
+
+    .tintuc-list-section nav {
+        margin-left: 15%;
+    }
+
+    .tintuc-list-header span {
+        font-family: 'Lora', serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .tintuc-list-post li a {
+        font-size: 12.5px;
+        color: rgb(68, 70, 107);
+        font-weight: 500;
+    }
+
+    .btn-back {
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 335px;
+        margin-right: 150px;
+        width: 55px;
+        height: 35px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .tintuc-list-section nav {
+        margin-left: 11%;
+    }
+
+    .tintuc-bar ul li {
+        text-align: center;
+        width: 57px;
+        list-style: none;
+        display: inline-block;
+        padding: 0px 0px 0px 0px;
+    }
+
+        .tintuc-bar ul li a {
+            font-family: Tahoma;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 9px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+    .news_detail_content {
+        background-size: 100%;
+        background-position: center top;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        padding: 10px 20px;
+        margin-top: 30px;
+    }
+}

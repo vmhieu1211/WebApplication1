@@ -1,0 +1,1034 @@
+@media screen and (min-width: 320px) {
+    .handbook-section {
+        margin-top: 90px;
+    }
+
+    .handbook-menu {
+        min-height: 90vh;
+        width: 25%;
+        padding: 0px 5px 0 5px;
+    }
+
+    .right-content {
+        position: relative;
+        display: block;
+        width: 75%;
+    }
+
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 84px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 84px;
+        }
+
+            .handbook-menu ul li a {
+                display: block;
+                color: whitesmoke;
+                font-size: 7px;
+                height: 20px;
+                text-decoration: none;
+                padding-left: 4px;
+                padding-top: 5px;
+                position: relative;
+            }
+
+        .handbook-menu ul > li span.holder {
+            position: absolute;
+            top: 5px;
+            right: 4px;
+        }
+
+        .handbook-menu ul li ul li {
+            display: block;
+            position: relative;
+            background: rgb(41, 44, 64) repeat-y;
+            width: 84px;
+        }
+
+            .handbook-menu ul li ul li a {
+                font-size: 6px;
+                padding-left: 25px;
+                padding-top: 5px;
+            }
+
+                .handbook-menu ul li ul li a i {
+                    font-size: 45%;
+                    position: absolute;
+                    top: 8px;
+                    left: 15px;
+                }
+
+    .hb-content-header {
+        background: url(../images/mn-ngang.png) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        width: 100%;
+        height: 28px;
+        display: inline-flex;
+    }
+
+    .hb-content-header-icon {
+        padding: 5px 0px 5px 5px;
+    }
+
+        .hb-content-header-icon img {
+            width: 17px;
+        }
+
+    span.hb-title {
+        width: 90%;
+        text-align: center;
+        color: white;
+        padding: 5px 10px 5px 0;
+        font-size: 2.4vw;
+        font-family: 'lora', serif;
+        text-transform: uppercase;
+    }
+
+    .hb-content-nav {
+        padding: 0 10px 0 10px;
+        position: relative;
+    }
+
+    .tab-header li {
+        list-style: none;
+        float: left;
+        position: relative;
+        display: block;
+        padding: 0 2px 0 0px;
+    }
+
+        .tab-header li a {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 0 5px 0 5px;
+            text-decoration: none;
+            background: rgb(98, 101, 119);
+            color: whitesmoke;
+            font-size: 6px;
+            font-weight: bold;
+            line-height: 20px;
+        }
+
+    .main-tain li p {
+        font-size: 13px;
+    }
+
+    html {
+        font-size: 9px;
+    }
+
+    .main-tain li img.map-sect {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .main-tain li img.img-htct {
+        margin-left: 1%;
+    }
+
+    .main-tain li img.img-nv-the-gioi,
+    .main-tain li img.skill-board {
+        width: 50%;
+        margin-left: 27%;
+    }
+
+    .hb-content-body ul li iframe {
+        width: 100%;
+        height: 105px;
+        margin: 0 0 15px 0;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .handbook-section {
+        margin-top: 50px;
+    }
+
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 94px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 94px;
+        }
+
+            .handbook-menu ul li a {
+                display: block;
+                color: whitesmoke;
+                font-size: 8px;
+                height: 25px;
+                text-decoration: none;
+                padding-left: 4px;
+                padding-top: 5px;
+                position: relative;
+            }
+
+            .handbook-menu ul li ul li {
+                display: block;
+                position: relative;
+                background: rgb(41, 44, 64) repeat-y;
+                width: 94px;
+            }
+
+                .handbook-menu ul li ul li a {
+                    font-size: 7px;
+                    padding-left: 25px;
+                    padding-top: 5px;
+                }
+
+    .main-tain li p {
+        font-size: 14px;
+    }
+
+    html {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 439px) {
+    .handbook-section {
+        margin-top: 60px;
+    }
+
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 100px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 100px;
+        }
+
+            .handbook-menu ul li a {
+                display: block;
+                color: whitesmoke;
+                font-size: 9px;
+                height: 25px;
+                text-decoration: none;
+                padding-left: 4px;
+                padding-top: 5px;
+                position: relative;
+            }
+
+        .handbook-menu ul > li span.holder {
+            position: absolute;
+            top: 5px;
+            right: 4px;
+        }
+
+        .handbook-menu ul li ul li {
+            display: block;
+            position: relative;
+            background: rgb(41, 44, 64) repeat-y;
+            width: 100px;
+        }
+
+            .handbook-menu ul li ul li a {
+                font-size: 8px;
+                padding-left: 25px;
+                padding-top: 5px;
+            }
+
+                .handbook-menu ul li ul li a i {
+                    font-size: 45%;
+                    position: absolute;
+                    top: 10px;
+                    left: 15px;
+                }
+
+    .tab-header li a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 0 5px 0 5px;
+        text-decoration: none;
+        background: rgb(98, 101, 119);
+        color: whitesmoke;
+        font-size: 7px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 468px) {
+    .handbook-section {
+        margin-top: 50px;
+    }
+
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 107px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 107px;
+        }
+
+            .handbook-menu ul li ul li {
+                display: block;
+                position: relative;
+                background: rgb(41, 44, 64) repeat-y;
+                width: 107px;
+            }
+
+    .hb-content-header {
+        background: url(../images/mn-ngang.png) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        width: 100%;
+        height: 34px;
+        display: inline-flex;
+    }
+
+    .hb-content-header-icon {
+        padding: 5px 0px 5px 7px;
+    }
+
+        .hb-content-header-icon img {
+            width: 23px;
+        }
+
+    span.hb-title {
+        width: 90%;
+        text-align: center;
+        color: white;
+        padding: 8px 10px 5px 0;
+        font-size: 2.4vw;
+        font-family: 'lora', serif;
+        text-transform: uppercase;
+    }
+
+    .tab-header li a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 0 5px 0 5px;
+        text-decoration: none;
+        background: rgb(98, 101, 119);
+        color: whitesmoke;
+        font-size: 8px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    .main-tain li p {
+        font-size: 15px;
+    }
+
+    html {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 115px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 115px;
+        }
+
+            .handbook-menu ul li a {
+                display: block;
+                color: whitesmoke;
+                font-size: 10px;
+                height: 30px;
+                text-decoration: none;
+                padding-left: 4px;
+                padding-top: 5px;
+                position: relative;
+            }
+
+            .handbook-menu ul li ul li {
+                display: block;
+                position: relative;
+                background: rgb(41, 44, 64) repeat-y;
+                width: 115px;
+            }
+
+                .handbook-menu ul li ul li a {
+                    font-size: 9px;
+                    padding-left: 25px;
+                    padding-top: 7px;
+                }
+
+                    .handbook-menu ul li ul li a i {
+                        font-size: 45%;
+                        position: absolute;
+                        top: 12px;
+                        left: 15px;
+                    }
+}
+
+@media screen and (min-width: 519px) {
+    .hb-content-body ul li iframe {
+        width: 100%;
+        height: 175px;
+        margin: 0 0 30px 0;
+    }
+
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 120px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 120px;
+        }
+
+            .handbook-menu ul li ul li {
+                display: block;
+                position: relative;
+                background: rgb(41, 44, 64) repeat-y;
+                width: 120px;
+            }
+
+    .tab-header li a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 0 5px 0 5px;
+        text-decoration: none;
+        background: rgb(98, 101, 119);
+        color: whitesmoke;
+        font-size: 9px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    .hb-content-header {
+        background: url(../images/mn-ngang.png) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        width: 100%;
+        height: 38px;
+        display: inline-flex;
+    }
+
+    .main-tain li p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 539px) {
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 125px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 125px;
+        }
+
+            .handbook-menu ul li ul li {
+                display: block;
+                position: relative;
+                background: rgb(41, 44, 64) repeat-y;
+                width: 125px;
+            }
+
+            .handbook-menu ul li a {
+                display: block;
+                color: whitesmoke;
+                font-size: 11px;
+                height: 35px;
+                text-decoration: none;
+                padding-left: 6px;
+                padding-top: 8px;
+                position: relative;
+            }
+
+        .handbook-menu ul > li span.holder {
+            position: absolute;
+            top: 9px;
+            right: 4px;
+        }
+
+        .handbook-menu ul li ul li a {
+            font-size: 11px;
+            padding-left: 20px;
+            padding-top: 7px;
+        }
+
+            .handbook-menu ul li ul li a i {
+                font-size: 45%;
+                position: absolute;
+                top: 14px;
+                left: 10px;
+            }
+}
+
+@media screen and (min-width: 568px) {
+    .handbook-section {
+        margin-top: 70px;
+    }
+
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 132px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 132px;
+        }
+
+            .handbook-menu ul li ul li {
+                display: block;
+                position: relative;
+                background: rgb(41, 44, 64) repeat-y;
+                width: 132px;
+            }
+
+    .tab-header li a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 0 5px 0 5px;
+        text-decoration: none;
+        background: rgb(98, 101, 119);
+        color: whitesmoke;
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    .hb-content-header-icon img {
+        width: 30px;
+    }
+
+    .main-tain li p {
+        font-size: 16px;
+    }
+
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .handbook-section {
+        margin-top: 70px;
+    }
+
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 125px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 125px;
+        }
+
+            .handbook-menu ul li ul li {
+                display: block;
+                position: relative;
+                background: rgb(41, 44, 64) repeat-y;
+                width: 125px;
+            }
+
+    .hb-content-header-icon img {
+        width: 27px;
+    }
+
+    .tab-header li a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 0 5px 0 5px;
+        text-decoration: none;
+        background: rgb(98, 101, 119);
+        color: whitesmoke;
+        font-size: 9px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 736px) {
+    .main-tain li img.map-sect {
+        width: 60%;
+        margin-left: 23%;
+    }
+
+    .main-tain li img.skill-board {
+        width: 45%;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 170px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 170px;
+        }
+
+            .handbook-menu ul li a {
+                display: block;
+                color: whitesmoke;
+                font-size: 14px;
+                height: 40px;
+                text-decoration: none;
+                padding-left: 6px;
+                padding-top: 8px;
+                position: relative;
+            }
+
+            .handbook-menu ul li ul li {
+                display: block;
+                position: relative;
+                background: rgb(41, 44, 64) repeat-y;
+                width: 170px;
+            }
+
+                .handbook-menu ul li ul li a {
+                    font-size: 13px;
+                    padding-left: 35px;
+                    padding-top: 9px;
+                }
+
+                    .handbook-menu ul li ul li a i {
+                        font-size: 45%;
+                        position: absolute;
+                        top: 17px;
+                        left: 23px;
+                    }
+
+    .hb-content-header {
+        background: url(../images/mn-ngang.png) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        width: 100%;
+        height: 52px;
+        display: inline-flex;
+    }
+
+    .hb-content-header-icon {
+        padding: 5px 0px 5px 10px;
+    }
+
+        .hb-content-header-icon img {
+            width: 35px;
+        }
+
+    .tab-header li {
+        list-style: none;
+        float: left;
+        position: relative;
+        display: block;
+        padding: 0 3px 0 0px;
+    }
+
+        .tab-header li a {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 5px 7px 5px 7px;
+            text-decoration: none;
+            background: rgb(98, 101, 119);
+            color: whitesmoke;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 20px;
+        }
+
+    .main-tain li p {
+        font-size: 17px;
+    }
+
+    html {
+        font-size: 13px;
+    }
+
+    .main-tain li img.map-sect {
+        width: 50%;
+        margin-left: 27%;
+    }
+
+    .main-tain li img.skill-board {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .hb-content-body ul li iframe {
+        width: 100%;
+        height: 235px;
+        margin: 0 0 30px 0;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .handbook-section {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .handbook-section {
+        margin-top: 90px;
+    }
+
+    .handbook-menu {
+        min-height: 90vh;
+        width: 20%;
+        padding: 0px 5px 0 5px;
+    }
+
+    .right-content {
+        position: relative;
+        display: block;
+        width: 80%;
+    }
+
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 182px;
+    }
+
+        .handbook-menu ul li {
+            display: block;
+            background: url(../images/mn-toi.png);
+            list-style: none;
+            width: 182px;
+        }
+
+            .handbook-menu ul li ul li {
+                display: block;
+                position: relative;
+                background: rgb(41, 44, 64) repeat-y;
+                width: 182px;
+            }
+
+            .handbook-menu ul li a {
+                display: block;
+                color: whitesmoke;
+                font-size: 16px;
+                height: 45px;
+                text-decoration: none;
+                padding-left: 6px;
+                padding-top: 8px;
+                position: relative;
+            }
+
+            .handbook-menu ul li ul li a {
+                font-size: 15px;
+                padding-left: 35px;
+                padding-top: 9px;
+            }
+
+    .hb-content-header {
+        background: url(../images/mn-ngang.png) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        width: 100%;
+        height: 74px;
+        display: inline-flex;
+    }
+
+    .hb-content-header-icon img {
+        width: 55px;
+    }
+
+    span.hb-title {
+        width: 90%;
+        text-align: center;
+        color: white;
+        padding: 15px 10px 5px 0;
+        font-size: 2.4vw;
+        font-family: 'lora', serif;
+        text-transform: uppercase;
+    }
+
+    .tab-header li a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 5px 15px 5px 15px;
+        text-decoration: none;
+        background: rgb(98, 101, 119);
+        color: whitesmoke;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    .main-tain li p {
+        font-size: 18px;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    .hb-content-body ul li iframe {
+        width: 100%;
+        height: 445px;
+        margin: 0 0 30px 0;
+    }
+}
+
+@media screen and (min-width: 1114px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 495px;
+        margin-right: 400px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .handbook-section {
+        margin-top: 165px;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .wrap {
+        background: url(../images/bg_pc.jpg) no-repeat;
+        background-size: 100% auto;
+        background-position: center 60px;
+        min-height: 100vh;
+    }
+
+    .button img {
+        transition: all .4s;
+        margin-top: 460px;
+        margin-right: 405px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .main-tain li img.img-htct {
+        margin-left: 7%;
+    }
+
+    .main-tain li img.map-sect {
+        width: 40%;
+        margin-left: 29%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 458px;
+        margin-right: 490px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .handbook-menu ul li {
+        display: block;
+        background: url(../images/mn-toi.png);
+        list-style: none;
+        width: 218px;
+    }
+
+        .handbook-menu ul li a {
+            display: block;
+            color: whitesmoke;
+            font-size: 18px;
+            height: 49px;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-top: 10px;
+            position: relative;
+        }
+
+    .handbook-menu ul {
+        background: url('../images/nen-doc.png') no-repeat;
+        background-size: cover;
+        display: block;
+        position: relative;
+        width: 218px;
+    }
+
+        .handbook-menu ul li ul li {
+            display: block;
+            position: relative;
+            background: rgb(41, 44, 64) repeat-y;
+            width: 218px;
+        }
+
+            .handbook-menu ul li ul li a {
+                font-size: 16px;
+                padding-left: 40px;
+                padding-top: 9px;
+            }
+
+    .hb-content-header {
+        background: url(../images/mn-ngang.png) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        width: 100%;
+        height: 88px;
+        display: inline-flex;
+    }
+
+    .hb-content-header-icon img {
+        width: 68px;
+    }
+
+    .tab-header li a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 7px 20px 7px 20px;
+        text-decoration: none;
+        background: rgb(98, 101, 119);
+        color: whitesmoke;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    .hb-content-nav {
+        padding: 0 30px 0 30px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 515px;
+        margin-right: 485px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .handbook-section {
+        margin-top: 195px;
+    }
+}
+
+@media screen and (min-width: 1560px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 575px;
+        margin-right: 475px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .handbook-section {
+        margin-top: 320px;
+    }
+
+    span.hb-title {
+        width: 90%;
+        text-align: center;
+        color: white;
+        padding: 15px 20px 5px 0;
+        font-size: 1.7vw;
+        font-family: 'lora', serif;
+        text-transform: uppercase;
+    }
+
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .button img {
+        transition: all .4s;
+        margin-top: 670px;
+        margin-right: 435px;
+        width: 103px;
+        height: 65px;
+        animation: scaling .6s alternate infinite ease-in;
+    }
+
+    .main-tain li img.skill-board {
+        width: 25%;
+        margin-left: 35%;
+    }
+
+    .main-tain li img.img-htct {
+        margin-left: 15%;
+    }
+
+    .main-tain li img.map-sect {
+        width: 35%;
+        margin-left: 30%;
+    }
+}
