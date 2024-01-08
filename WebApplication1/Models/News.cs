@@ -15,13 +15,19 @@ namespace WebApplication1.Models
         [Required]
         public string? Image { get; set; }
 
-        public string Image2 { get; set; } = null!;
+        public string? Image2 { get; set; } = null!;
 
         [Required]
         public DateTime CreatedDate { get; set; }
 
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
         public Category Category { get; set; }
+        [Required]
+        public bool Publish { get; set; }
+        [Required]
+        public DateTime PublishDate { get; set; }
+        public string Slug { get; set; }
+     
 
     }
 }

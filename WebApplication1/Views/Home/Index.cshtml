@@ -97,10 +97,10 @@
                                         @foreach (var news in Model.News)
                                         {
                                             <li>
-                                                <a asp-controller="News" asp-action="Details" asp-route-id="@news.Id">
+                                                <a asp-controller="News" asp-action="Details" asp-route-slug="@news.Slug">
                                                     @news.Title
                                                 </a>
-                                                <span class="created-date">@news.CreatedDate.ToString("dd/MM")</span>
+                                                <span class="created-date">@news.PublishDate.ToString("dd/MM")</span>
                                             </li>
                                         }
                                     }

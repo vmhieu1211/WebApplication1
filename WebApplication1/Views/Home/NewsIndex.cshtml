@@ -50,7 +50,7 @@
                                     <a asp-controller="News" asp-action="Details" asp-route-id="@news.Id">
                                         @news.Title
                                     </a>
-                                    <span class="created-date">@news.CreatedDate.ToString("dd/MM")</span>
+                                    <time>@news.PublishDate.ToString("dd/MM")</time>
                                 </li>
                             }
                         }

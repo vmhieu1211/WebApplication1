@@ -2,26 +2,27 @@
 using System.Diagnostics;
 using WebApplication1.Models;
 using WebApplication1.Repositories;
+using WebApplication1.Services;
 
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IRepository<News> _newsRepository;
-        private readonly IRepository<Category> _categoryRepository;
+        private readonly NewsServices _newsServices;
+        private readonly CategoryServices _categoryServices;
         private readonly IRepository<Characters> _charactersRepository;
 
-        public HomeController(IRepository<News> newsRepository, IRepository<Category> categoryRepository, IRepository<Characters> characterRepository) 
+        public HomeController(NewsServices newsServices, CategoryServices categoryServices, IRepository<Characters> characterRepository) 
         {
-            _newsRepository = newsRepository;  
-            _categoryRepository = categoryRepository;
+            _newsServices = newsServices;
+            _categoryServices = categoryServices;
             _charactersRepository = characterRepository;
         }
 
         public IActionResult Index()
         {
-            var news = _newsRepository.GetAll(); 
-            var category = _categoryRepository.GetAll();
+            var news = _newsServices.GetAll(); 
+            var category = _categoryServices.GetAll();
             var characters = _charactersRepository.GetAll();
             if (news == null)
             {
@@ -39,7 +40,7 @@ namespace WebApplication1.Controllers
             {
 
                 News = news,
-                Categories = category,
+                Categories = category,  
                 Characters = characters
             };
             return View(homeData);
@@ -47,8 +48,8 @@ namespace WebApplication1.Controllers
 
         public IActionResult NewsIndex()
         {
-            var news = _newsRepository.GetAll();
-            var category = _categoryRepository.GetAll();
+            var news = _newsServices.GetAll();
+            var category = _categoryServices.GetAll();
             var newsData = new Home
             {
                 News = news,

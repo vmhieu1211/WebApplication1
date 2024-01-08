@@ -21,14 +21,16 @@ namespace WebApplication1.Controllers
             var news = _newsServices.GetAll();
             return Ok(news);
         }
-        [HttpGet("{id}")]
-        public IActionResult Details(int id)
+        [HttpGet("{slug}")]
+        public IActionResult Details(string slug)
         {
-            var news = _newsServices.GetById(id);
-            if(news == null)
+            var news = _newsServices.GetBySlug(slug);
+
+            if (news == null)
             {
                 return NotFound();
             }
+
             return View(news);
         }
         [HttpPost]

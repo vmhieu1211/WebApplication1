@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Hosting;
+using System.Collections.Generic;
+using System.Linq;
 using WebApplication1.Data;
 using WebApplication1.Models;
 using WebApplication1.Repositories;
@@ -14,12 +16,21 @@ namespace WebApplication1.Services
         }
 
         public IEnumerable<News> GetAll() 
-        { 
-            return _context.News.ToList();
+        {
+            DateTime currentDate = DateTime.Now;
+            return _context.News
+                .Where(news => news.Publish && news.PublishDate <= currentDate)
+                .OrderByDescending(news => news.PublishDate)
+                .ToList();
         }
         public News GetById(int id)
         {
             return _context.News.Find(id);
+        }
+        
+        public News GetBySlug(string slug)
+        {
+            return _context.News.FirstOrDefault(news => news.Slug == slug);
         }
 
         public void Create(News news)
@@ -39,6 +50,9 @@ namespace WebApplication1.Services
                 news.Image = updateNews.Image;
                 news.Image2 = updateNews.Image2;
                 news.CreatedDate = updateNews.CreatedDate;
+                news.PublishDate = updateNews.PublishDate;
+                news.Publish = updateNews.Publish;
+                news.Slug   = updateNews.Slug;
             }
         }
 
