@@ -37,14 +37,14 @@ namespace WebApplication1.Controllers
             return CreatedAtAction(nameof(GetById), new { id = category.Id }, category);
         }
         [HttpPut("{id}")]
-        public ActionResult Update(int id, Category updateCategory)
+        public IActionResult Update(int id, Category updateCategory)
         {
             _categoryServices.Update(updateCategory, id);
             return Ok();
         }
 
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
             _categoryServices.delete(id);
             return NoContent();

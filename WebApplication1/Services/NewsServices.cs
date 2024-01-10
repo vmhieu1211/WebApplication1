@@ -17,7 +17,7 @@ namespace WebApplication1.Services
 
         public IEnumerable<News> GetAll() 
         {
-            DateTime currentDate = DateTime.Now;
+            DateTime currentDate = DateTime.Today;
             return _context.News
                 .Where(news => news.Publish && news.PublishDate <= currentDate)
                 .OrderByDescending(news => news.PublishDate)

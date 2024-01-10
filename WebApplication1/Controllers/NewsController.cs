@@ -16,10 +16,10 @@ namespace WebApplication1.Controllers
             _newsServices = newsServices;
         }
         [HttpGet]
-        public ActionResult GetAll()
+        public IActionResult Index()
         {
             var news = _newsServices.GetAll();
-            return Ok(news);
+            return View(news);
         }
         [HttpGet("{slug}")]
         public IActionResult Details(string slug)
@@ -33,20 +33,32 @@ namespace WebApplication1.Controllers
 
             return View(news);
         }
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            var news = _newsServices.GetById(id);
+
+            if (news == null)
+            {
+                return NotFound();
+            }
+
+            return View(news);
+        }
         [HttpPost]
-        public ActionResult Create(News news)
+        public IActionResult Create(News news)
         {
             _newsServices.Create(news);
             return CreatedAtAction(nameof(Details), new {id = news.Id},news);
         }
         [HttpPut("{id}")]
-        public ActionResult Update(int id ,News updateNews)
+        public IActionResult Update(int id ,News updateNews)
         {
             _newsServices.Update(updateNews,id);
             return Ok();
         }
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
             _newsServices.Delete(id);
             return NoContent();
