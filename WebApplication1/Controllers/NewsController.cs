@@ -16,9 +16,9 @@ namespace WebApplication1.Controllers
             _newsServices = newsServices;
         }
         [HttpGet]
-        public IActionResult Index(int page = 1, int pageSize = 10)
+        public IActionResult Index()
         {
-            var news = _newsServices.GetAll(page, pageSize);
+            var news = _newsServices.GetAll();
             return View(news);
         }
         [HttpGet("{slug}")]
@@ -33,7 +33,7 @@ namespace WebApplication1.Controllers
 
             return View(news);
         }
-    
+
         [HttpPost]
         public IActionResult Create(News news)
         {
