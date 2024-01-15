@@ -16,9 +16,9 @@ namespace WebApplication1.Controllers
             _newsServices = newsServices;
         }
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Index(int page = 1, int pageSize = 10)
         {
-            var news = _newsServices.GetAll();
+            var news = _newsServices.GetAll(page, pageSize);
             return View(news);
         }
         [HttpGet("{slug}")]
@@ -33,18 +33,7 @@ namespace WebApplication1.Controllers
 
             return View(news);
         }
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            var news = _newsServices.GetById(id);
-
-            if (news == null)
-            {
-                return NotFound();
-            }
-
-            return View(news);
-        }
+    
         [HttpPost]
         public IActionResult Create(News news)
         {

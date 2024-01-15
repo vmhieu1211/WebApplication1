@@ -47,7 +47,7 @@
                             @foreach (var news in Model.News)
                             {
                                 <li class="ng-scope">
-                                    <a asp-controller="News" asp-action="Details" asp-route-id="@news.Id">
+                                    <a asp-controller="News" asp-action="Details" asp-route-slug="@news.Slug">
                                         @news.Title
                                     </a>
                                     <time>@news.PublishDate.ToString("dd/MM")</time>
