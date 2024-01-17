@@ -10,22 +10,17 @@ namespace WebApplication1.Services
     public class NewsServices : Repository<News>
     {
         private readonly NewsDbContext _context;
-        private readonly IRepository<News> _repository;
         public NewsServices(NewsDbContext context) :base(context) 
         {
             _context = context;
         }
  
-        public IEnumerable<News> GetAll(int page = 1, int pageSize = 10) 
+        public IEnumerable<News> GetAll() 
         {
             DateTime currentDate = DateTime.Today;
-            int skip = (page - 1) * pageSize;
-
             var news = _context.News
                 .Where(news => news.Publish && news.PublishDate <= currentDate)
                 .OrderByDescending(news => news.PublishDate)
-                .Skip(skip)
-                .Take(pageSize)
                 .ToList();
             return news;
         }

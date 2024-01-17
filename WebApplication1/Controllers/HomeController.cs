@@ -19,30 +19,43 @@ namespace WebApplication1.Controllers
             _charactersRepository = characterRepository;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int pg = 1)
         {
-            var news = _newsServices.GetAll(); 
-            var category = _categoryServices.GetAll();
-            var characters = _charactersRepository.GetAll();
+            const int pageSize = 5;
+
+            var news = _newsServices.GetAll();
             if (news == null)
             {
                 return NotFound(news);
-            };
+            }
+
+            int recsCount = news.Count();
+            var pager = new Pager(recsCount, pageSize);
+            int recSkip = (pg - 1) * pageSize;
+            var data = news.Skip(recSkip).Take(pager.PageSize).ToList();
+
+            var category = _categoryServices.GetAll();
+            var characters = _charactersRepository.GetAll();
+
             if (category == null)
             {
                 return NotFound(category);
-            };
+            }
+
             if (characters == null)
             {
                 return NotFound(characters);
             }
+
             var homeData = new Home
             {
-
-                News = news,
-                Categories = category,  
+                News = data, 
+                Categories = category,
                 Characters = characters
             };
+
+            this.ViewBag.Pager = pager;
+
             return View(homeData);
         }
 
