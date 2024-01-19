@@ -18,15 +18,7 @@ namespace WebApplication1.Controllers
         public IActionResult GetAll(int pg = 1)
         {
             var news = _newsServices.GetAll();
-            const int pageSize = 10;
-            if (pg < 1)
-                pg = 1;
-            int recsCount = news.Count();
-            var pager = new Pager(recsCount, pageSize);
-            int recSkip = (pg-1) * pageSize;
-            var data = news.Skip(recSkip).Take(pager.PageSize).ToList();
-            this.ViewBag.Pager = pager;
-            return View(data);
+            return View(news);
         }
         [HttpGet("{slug}")]
         public IActionResult Details(string slug)

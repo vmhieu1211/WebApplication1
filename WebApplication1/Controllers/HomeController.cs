@@ -28,11 +28,11 @@ namespace WebApplication1.Controllers
             {
                 return NotFound(news);
             }
-
-            int recsCount = news.Count();
-            var pager = new Pager(recsCount, pageSize);
-            int recSkip = (pg - 1) * pageSize;
-            var data = news.Skip(recSkip).Take(pager.PageSize).ToList();
+            int total = news.Count();
+            int totalPage = (int)Math.Ceiling((decimal)total / (decimal)pageSize);
+            int offset = (pg - 1) * pageSize;
+            //var pager = new Pager(recsCount, pageSize);
+            var data = news.Skip(offset).Take(pageSize).ToList();
 
             var category = _categoryServices.GetAll();
             var characters = _charactersRepository.GetAll();
@@ -50,11 +50,13 @@ namespace WebApplication1.Controllers
             var homeData = new Home
             {
                 News = data, 
+                CurrentPage = pg, 
+                TotalPage = totalPage, 
                 Categories = category,
                 Characters = characters
             };
 
-            this.ViewBag.Pager = pager;
+            //this.ViewBag.Pager = pager;
 
             return View(homeData);
         }
