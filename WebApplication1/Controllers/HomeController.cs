@@ -3,6 +3,7 @@ using System.Diagnostics;
 using WebApplication1.Models;
 using WebApplication1.Repositories;
 using WebApplication1.Services;
+using X.PagedList;
 
 namespace WebApplication1.Controllers
 {
@@ -19,20 +20,20 @@ namespace WebApplication1.Controllers
             _charactersRepository = characterRepository;
         }
 
-        public IActionResult Index(int pg = 1)
+        public IActionResult Index(int? page = 1)
         {
-            const int pageSize = 5;
+            //const int pageSize = 5;
 
-            var news = _newsServices.GetAll();
+            var news = _newsServices.GetAll().ToPagedList(page ?? 1,5);
             if (news == null)
             {
                 return NotFound(news);
             }
-            int total = news.Count();
-            int totalPage = (int)Math.Ceiling((decimal)total / (decimal)pageSize);
-            int offset = (pg - 1) * pageSize;
-            //var pager = new Pager(recsCount, pageSize);
-            var data = news.Skip(offset).Take(pageSize).ToList();
+            //int total = news.Count();
+            //int totalPage = (int)Math.Ceiling((decimal)total / (decimal)pageSize);
+            //int offset = (pg - 1) * pageSize;
+            ////var pager = new Pager(recsCount, pageSize);
+            //var data = news.Skip(offset).Take(pageSize).ToList();
 
             var category = _categoryServices.GetAll();
             var characters = _charactersRepository.GetAll();
@@ -49,9 +50,9 @@ namespace WebApplication1.Controllers
 
             var homeData = new Home
             {
-                News = data, 
-                CurrentPage = pg, 
-                TotalPage = totalPage, 
+                News = news, 
+                //CurrentPage = page, 
+                //TotalPage = totalPage, 
                 Categories = category,
                 Characters = characters
             };
@@ -61,9 +62,9 @@ namespace WebApplication1.Controllers
             return View(homeData);
         }
 
-        public IActionResult NewsIndex()
+        public IActionResult NewsIndex(int? page = 1)
         {
-            var news = _newsServices.GetAll();
+            var news = _newsServices.GetAll().ToPagedList(page ?? 1,5);
             var category = _categoryServices.GetAll();
             var newsData = new Home
             {

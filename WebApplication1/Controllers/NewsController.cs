@@ -15,13 +15,13 @@ namespace WebApplication1.Controllers
             _newsServices = newsServices;
         }
         [HttpGet]
-        public IActionResult GetAll(int pg = 1)
-        {
+        public IActionResult GetAll()
+        { 
             var news = _newsServices.GetAll();
             return View(news);
         }
         [HttpGet("{slug}")]
-        public IActionResult Details(string slug)
+        public IActionResult Details(string slug,int page,int pageSize)
         {
             var news = _newsServices.GetBySlug(slug);
 

@@ -1,4 +1,6 @@
-﻿@model Home
+﻿@model Home;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
 @{
     ViewData["Title"] = "News Page";
     Layout = "_Layout";
@@ -70,17 +72,13 @@
                 <nav aria-label="Page navigation example tintuc-navigation">
                     <ul class="pagination">
                         <li class="page-item">
-                            <a class="page-link" href="#posts" ng-click="loadFirstItems(10)">
-                                << Đầu
-                            </a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="#posts" ng-click="loadPreItems(10)">
-                                < Trước
-                            </a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#posts" ng-click="loadNextItems(10)">Xem tiếp ></a></li>
-                        <li class="page-item"><a class="page-link" href="#posts" ng-click="loadLastItems(10)">Cuối >></a></li>
+                            @if (Model.News is IPagedList<News>)
+                            {
+                                var pagedList = (IPagedList<News>)Model.News;
+                                @Html.PagedListPager(pagedList, page => Url.Action("NewsIndex", new { page }))
+                                ;
+
+                            }
                     </ul>
                 </nav>
             </div>

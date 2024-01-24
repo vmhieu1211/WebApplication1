@@ -126,6 +126,7 @@ html {
         }
 
             .right-nav .sticky-nav a.sticky-button-giftcode:hover {
+               
                 position: absolute;
                 top: 200px;
                 left: 16px;

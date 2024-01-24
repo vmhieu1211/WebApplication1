@@ -14,11 +14,6 @@ builder.Services.AddScoped<IRepository<Category>, Repository<Category>>();
 builder.Services.AddScoped<IRepository<Characters>, Repository<Characters>>();
 builder.Services.AddScoped<CategoryServices>();
 builder.Services.AddScoped<NewsServices>();
-
-
-
-
-
 builder.Services.AddDbContext<NewsDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("NewsConnectionStrings")));
 var app = builder.Build();
@@ -45,6 +40,4 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "news",
     pattern: "{controller=Home}/{action=NewsIndex}/{id?}");
-
-
 app.Run();
